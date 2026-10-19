@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - My Page v2</title>
+    <!-- ใช้ css ร่วมกับ index.html -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>ฟอร์มการติดต่อ (Contact Form)</h2>
+        
+        <!-- มีฟอร์มการติดต่อ -->
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">ชื่อ-นามสกุล:</label>
+                <input type="text" id="name" name="name" required placeholder="กรุณากรอกชื่อของคุณ">
+            </div>
+
+            <div class="form-group">
+                <label for="email">อีเมลติดต่อ:</label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">หัวข้อความต้องการ:</label>
+                <input type="text" id="subject" name="subject" required placeholder="ติดต่อเรื่อง...">
+            </div>
+
+            <div class="form-group">
+                <label for="message">ข้อความ:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="พิมพ์ข้อความของคุณที่นี่..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">ส่งข้อความ</button>
+        </form>
+
+        <!-- ส่วนของ Footer สำหรับย้อนกลับหน้าหลักและใส่ลิงก์ตามเงื่อนไข -->
+        <footer>
+            <p>
+                <a href="index.html">กลับสู่หน้าหลัก (Profile)</a> | 
+                <a href="https://github.com" target="_blank">GitHub ของฉัน</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>

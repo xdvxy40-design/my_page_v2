@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page v2 - Profile</title>
+    <!-- ลิ้งค์ไฟล์ styles.css เพื่อทำหน้า profile ให้ดียิ่งขึ้น -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- ปุ่มเข้าสู่หน้าการติดต่อจาก index.html -->
+        <div style="text-align: right;">
+            <a href="contact.html" class="btn">ติดต่อฉัน</a>
+        </div>
+
+        <!-- Layout รูปแบบ Table (หน้า 59) -->
+        <table class="profile-table">
+            <tr>
+                <td style="width: 180px;">
+                    <!-- รูปโปรไฟล์เป็นวงกลม (Challenge: ห่างด้วย CSS margin-right) -->
+                    <img src="image.png" alt="Profile Picture" class="profile-img">
+                </td>
+                <td>
+                    <h2>นาย ชโยดม เขียวเจริญ</h2>
+                    <p><strong>ตำแหน่ง:</strong> นักศึกษา</p>
+                    <p><strong>สาขาวิชา:</strong> CAI</p>
+                    <p><strong>สถาบันการศึกษา:</strong> สถาบันการจัดการปัญญาภิวัฒน์</p>
+                </td>
+            </tr>
+        </table>
+
+        <!-- About me - ประวัติสั้น ๆ เกี่ยวกับตัวเรา -->
+        <h3>About me</h3>
+        <p>สวัสดีครับ ผมเป็นนักศึกษาที่สนใจในการพัฒนาเว็บไซต์และแอปพลิเคชัน มุ่งมั่นที่จะเรียนรู้เทคโนโลยีใหม่ๆ อยู่เสมอเพื่อสร้างสรรค์ผลงานที่มีประโยชน์ครับ</p>
+
+        <!-- ใช้ ol หรือ ul บอกสิ่งที่ตัวเองชอบทาน 3 อย่าง -->
+        <h3>สิ่งที่ชอบรับประทาน (My Favorite Foods)</h3>
+        <ul>
+            <li>ข้าวผัดกะเพราไข่ดาว</li>
+            <li>ซูชิ / ปลาดิบ</li>
+            <li>ชาบูหมูกระทะ</li>
+        </ul>
+
+        <!-- Experience - ประสบการณ์การทำงาน (รูปแบบตารางตามโจทย์) -->
+        <h3>Experience (ประสบการณ์การทำงาน)</h3>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Work Place</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>เซ่เว่น</td>
+                    <td>มีนาคม-พฤษภาคม</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <!-- ส่วนของ skill และ ระดับพลัง กำหนดให้มี 4 column ใช้ Table (หน้า 60) -->
+        <h3>Skills</h3>
+        <table class="data-table">
+            <tbody>
+                <tr>
+                    <td><strong>คณิตศาสตร์</strong></td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td><strong>ภาษาไทย</strong></td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td><strong>SQL</strong></td>
+                    <td>⭐⭐⭐</td>
+                    <td><strong>ภาษาอังกฤษ</strong></td>
+                    <td>⭐</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ส่วนของ Footer ใส่ link Github และ contact.html -->
+        <footer>
+            <p>
+                <a href="https://github.com/xdvxy40-design" target="_blank">GitHub ของฉัน</a> | 
+                <a href="contact.html">หน้าติดต่อ (Contact)</a>
+            </p>
+            <p>&copy; 2026 My Page v2. All Rights Reserved.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
